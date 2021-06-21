@@ -1,0 +1,11 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: $color-accent-1;
+
+    &:hover {
+        color: $color-white;
+    }
+}

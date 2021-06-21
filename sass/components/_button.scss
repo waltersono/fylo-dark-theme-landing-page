@@ -1,0 +1,51 @@
+.btn,
+.btn:link,
+.btn:visited {
+    text-decoration: none;
+    padding: 1em 5em;
+    border-radius: 10rem;
+    display: inline-block;
+    transition: all 0.2s;
+}
+
+.btn--primary {
+    color: $color-white;
+    background-image: linear-gradient(to right, $color-accent-1, $color-accent-2);
+
+    &:hover {
+        background-color: $color-accent-1;
+        background-image: linear-gradient($color-accent-1, $color-accent-1);
+    }
+}
+
+.btn--sm {
+    font-size: 1rem;
+}
+
+.btn--md {
+    font-size: 1.4rem;
+}
+
+.btn--mg {
+    font-size: 1.8rem;
+}
+
+.btn--link,
+.btn--link:link,
+.btn--link:visited {
+    padding: 0 0 0.3rem 0;
+    border-bottom: 1px solid $color-accent-1;
+    border-radius: 0;
+    color: $color-accent-1;
+
+    &:hover {
+        color: $color-white;
+        border-bottom: 1px solid $color-white;
+    }
+
+    img {
+        display: inline-block;
+        fill: $color-white;
+        margin-left: 0.5rem;
+    }
+}
