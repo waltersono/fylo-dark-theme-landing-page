@@ -1,0 +1,40 @@
+.header {
+    padding: 5rem 0 30rem 0;
+    color: $color-white;
+    background: url("../images/bg-curvy-desktop.svg") no-repeat hsl(217, 28%, 15%);
+    background-size: contain;
+    background-position: bottom;
+
+    &__container {
+        @include container;
+    }
+
+    &__img {
+        margin: 2rem auto;
+        display: block;
+    }
+
+    &__text-box {
+        text-align: center;
+        margin: 0 auto;
+        max-width: 60rem;
+        width: 100%;
+    }
+
+    &__title {
+        margin: 2rem auto;
+        animation: moveInBottom 1s ease-out 0.75s;
+        animation-fill-mode: backwards;
+    }
+
+    &__paragraph {
+        font-size: 1.4rem;
+        animation: moveInBottom 1s ease-out 1.7s;
+        animation-fill-mode: backwards;
+    }
+
+    &__btn {
+        animation: moveInBottom 1s ease-out 2.5s;
+        animation-fill-mode: backwards;
+    }
+}

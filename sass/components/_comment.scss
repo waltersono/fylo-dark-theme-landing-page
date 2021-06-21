@@ -1,0 +1,36 @@
+.comment {
+    background-color: $color-primary-4;
+    border-radius: 1rem;
+    padding: 2rem 4rem;
+    color: $color-white;
+    z-index: 2;
+
+    &__text {
+        font-size: 1.4rem;
+    }
+
+    &__user {
+        display: flex;
+        align-items: center;
+        margin-top: 2rem;
+    }
+
+    &__img {
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+    }
+
+    &__info {
+        margin-left: 1rem;
+        font-size: 1.2rem;
+    }
+
+    &__username {
+        font-weight: 700;
+    }
+
+    &__role {
+        color: $color-gray-3;
+    }
+}

@@ -1,0 +1,99 @@
+.footer {
+    background-color: $color-primary-3;
+    padding: 15rem 0;
+    color: $color-white;
+    position: relative;
+
+    &__container {
+        @include container;
+    }
+    &__logo {
+        margin-bottom: 2rem;
+    }
+
+    &__box {
+        display: grid;
+        grid-template-columns: 2fr 2fr repeat(3, 1fr);
+        grid-gap: 2rem;
+        margin-bottom: 4rem;
+    }
+
+    &__list {
+        list-style: none;
+    }
+
+    &__item:not(:last-child) {
+        margin-bottom: 2rem;
+    }
+
+    &__item {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    &__link {
+        color: currentColor;
+        text-decoration: none;
+        transition: all 0.2s;
+
+        &:hover {
+            font-weight: 700;
+            cursor: pointer;
+        }
+    }
+
+    &__icon {
+        margin-right: 1rem;
+    }
+
+    &__socials {
+        svg {
+            width: 3rem;
+            height: 3rem;
+            fill: currentColor;
+            transition: all 0.5s;
+
+            &:hover {
+                cursor: pointer;
+                fill: $color-accent-1;
+            }
+        }
+
+        svg:not(:last-child) {
+            margin-right: 1rem;
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    .footer {
+        padding-top: 30rem;
+        text-align: center;
+        &__box {
+            display: flex;
+            flex-direction: column;
+        }
+
+        &__list {
+            text-align: center;
+            width: 50%;
+            margin: 0 auto;
+        }
+
+        &__item {
+            justify-content: center;
+        }
+
+        &__link {
+            display: inline-block;
+            text-align: center;
+            margin: 0 auto;
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .footer {
+        padding-top: 50rem;
+    }
+}

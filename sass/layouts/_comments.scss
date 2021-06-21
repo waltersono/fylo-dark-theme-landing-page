@@ -1,0 +1,11 @@
+.comments {
+    @include container;
+    padding: 4rem 0 30rem 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    justify-content: center;
+    align-items: center;
+    grid-gap: 2rem;
+    background-image: url("../images/bg-quotes.png");
+    background-repeat: no-repeat;
+}
