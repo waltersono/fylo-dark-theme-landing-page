@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Source](https://github.com/waltersono/fylo-dark-theme-landing-page)
-- Live Site URL: [Live](https://waltersono.github.io/fylo-dark-theme-landing-page/)
+- Solution URL: [Source code](https://github.com/waltersono/fylo-dark-theme-landing-page)
+- Live Site URL: [Live project](https://waltersono.github.io/fylo-dark-theme-landing-page/)
 
 ## My process
 
@@ -47,6 +47,7 @@ Users should be able to:
 - Mobile-first workflow
 - SASS
 - CSS Animations
+- Media Queries
 
 
 ## Author

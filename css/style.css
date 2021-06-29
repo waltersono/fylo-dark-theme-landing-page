@@ -82,7 +82,7 @@ img {
   .nav__logo {
     width: 80%; } }
 
-@media (max-width: 600px) {
+@media (max-width: 37.5em) {
   .nav__list {
     flex-direction: column; }
   .nav__item {
@@ -265,7 +265,7 @@ img {
   width: 80%;
   margin: 0 auto; }
 
-@media (max-width: 800px) {
+@media (max-width: 50em) {
   .features {
     display: flex;
     flex-direction: column; } }
@@ -285,7 +285,7 @@ img {
     line-height: 2;
     flex: 1; }
 
-@media (max-width: 1300px) {
+@media (max-width: 81.25em) {
   .productivity {
     display: flex;
     flex-direction: column; }
@@ -368,7 +368,7 @@ img {
   .footer__socials svg:not(:last-child) {
     margin-right: 1rem; }
 
-@media (max-width: 800px) {
+@media (max-width: 50em) {
   .footer {
     padding-top: 30rem;
     text-align: center; }
